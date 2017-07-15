@@ -1,0 +1,25 @@
+.search-field {
+  position: absolute;
+  z-index: 1;
+  bottom: 20%;
+}
+.images-carousel .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.search-icon {
+  position: absolute;
+  top: 3px;
+  right: 22px;
+  font-size: 18px;
+  color: #92959c;
+  background: #FFFFFF;
+  padding: 4px;
+}
+.about-section {
+  margin-top: 40px;
+}
+.about-block {
+  font-size: 15px;
+}

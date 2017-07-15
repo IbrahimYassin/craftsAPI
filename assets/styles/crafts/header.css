@@ -1,0 +1,81 @@
+.logo-block {
+  margin: 15px 0;
+}
+.header-nav-container {
+  height: 70px;
+}
+.header-nav {
+  list-style: none;
+}
+.header-nav a {
+  display: inline;
+  padding: 27px 20px;
+  box-shadow: inset 0 0 0 0 #c40c11;
+  -webkit-transition: box-shadow ease-in-out 0.2s;
+  -moz-transition: box-shadow ease-in-out 0.2s;
+  -ms-transition: box-shadow ease-in-out 0.2s;
+  -o-transition: box-shadow ease-in-out 0.2s;
+  transition: box-shadow ease-in-out 0.2s;
+}
+.header-nav a:hover {
+  box-shadow: inset 0px -6px 0px -1px #c40c11;
+}
+.left-nav-handle {
+  padding: 20px 0;
+  z-index: 1;
+  font-size: 20px;
+}
+.left-nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  padding-top: 60px;
+  z-index: 2;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transform: translate(-100%);
+  -moz-transform: translate(-100%);
+  -ms-transform: translate(-100%);
+  -o-transform: translate(-100%);
+  transform: translate(-100%);
+  -webkit-transition: transform ease-in-out 0.25s;
+  -moz-transition: transform ease-in-out 0.25s;
+  -ms-transition: transform ease-in-out 0.25s;
+  -o-transition: transform ease-in-out 0.25s;
+  transition: transform ease-in-out 0.25s;
+}
+.left-nav-menu a {
+  display: block;
+  padding: 8px 8px 8px 15px;
+  font-size: 15px;
+  color: #818181;
+  -webkit-transition: color ease-in-out 0.25s;
+  -moz-transition: color ease-in-out 0.25s;
+  -ms-transition: color ease-in-out 0.25s;
+  -o-transition: color ease-in-out 0.25s;
+  transition: color ease-in-out 0.25s;
+}
+.left-nav-menu a:hover {
+  color: #f1f1f1;
+}
+.left-nav-logo {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  font-size: 18px;
+}
+.left-nav-menu .close-icon {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 18px;
+}
+.left-nav-menu.in {
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+  transform: translate(0);
+}

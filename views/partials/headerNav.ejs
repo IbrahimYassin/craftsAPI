@@ -1,0 +1,40 @@
+<header class="col-xs-12">
+  <!-- Navigation items-->
+  <% items = ['about', 'news', 'near by', 'sign in'] %>
+
+  <!-- Desktop navigation -->
+  <div class="row no-margin header-nav-container hidden-xs">
+    <!-- craftsOnSite logo -->
+    <div class="logo-block col-xs-6 red-font text-center parent-center">
+      <h1 class="bold child-center">CraftsOnSite</h1>
+    </div>
+
+    <!-- Navigation menu -->
+    <div class="col-xs-6 parent-center fill-parent">
+      <div class="header-nav child-center text-center fill-parent no-margin">
+        <!-- Loop through all items -->
+        <% items.forEach(function(item)  { %>
+          <a href="#<%= item %>" class="no-decoration text-uppercase red-font bold">
+            <%= item %>
+          </a>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile navigation -->
+  <div class="left-nav-handle col-xs-12 hidden-lg hidden-md hidden-sm red-font bold hand">
+    &#9776; CraftsOnSite
+  </div>
+
+  <div class="left-nav-menu">
+    <span class="left-nav-logo white-font">CraftsOnSite</span>
+    <a class="close-icon no-decoration">&times;</a>
+    <!-- Loop through all items -->
+    <% items.forEach(function(item)  { %>
+      <a href="#<%= item %>" class="no-decoration text-center text-uppercase bold">
+        <%= item %>
+      </a>
+    <% }); %>
+  </div>
+</header>
